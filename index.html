@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kardeşler Yemek | Yemek Fabrikası ve Toplu Yemek Hizmetleri</title>
+    <meta name="description"
+        content="Kardeşler Yemek: Fabrika, okul, hastane ve ofisler için hijyenik ortamda günlük toplu yemek üretimi ve yerinde yemek hizmetleri.">
+    <meta name="theme-color" content="#b22222">
+    <meta property="og:title" content="Kardeşler Yemek">
+    <meta property="og:description" content="Hijyenik üretim, lezzetli menüler, zamanında teslimat.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kardesleryemek.example.com/">
+    <meta property="og:image" content="/favicon.png">
+    <link rel="icon" href="/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <a href="#hero" class="header-logo-link" aria-label="Ana Sayfa">
+                    <div class="header-logo">
+                        <svg viewBox="0 0 140 60" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-labelledby="headerLogoTitle">
+                            <title id="headerLogoTitle">Kardeşler Yemek</title>
+                            <defs>
+                                <path id="headerArc" d="M5,42 C30,22 110,22 135,42" />
+                            </defs>
+                            <text class="logo-top-text" style="font-size: 20px;">
+                                <textPath href="#headerArc" startOffset="50%" text-anchor="middle">KARDEŞLER</textPath>
+                            </text>
+                            <text x="70" y="55" text-anchor="middle" class="logo-bottom-text">YEMEK</text>
+                        </svg>
+                    </div>
+                </a>
+                <div class="header-contact">
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+905383059883">0538 305 98 83</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="header-right">
+                <nav class="header-nav" id="main-nav">
+                    <a href="#hero">Ana Sayfa</a>
+                    <a href="#about">Hakkımızda</a>
+                    <a href="#services">Hizmetler</a>
+                    <a href="#gallery">Galeri</a>
+                    <a href="#contact">İletişim</a>
+                </nav>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Menü Aç/Kapat">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero" style="background-color: #f4e4ca; padding: 80px 0;">
+            <div class="container hero-inner"
+                style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; max-width: 1200px; margin: 0 auto;">
+
+                <div class="hero-logo" style="flex: 0 0 auto;">
+                    <img src="resimler/logo.jpg" alt="Kardeşler Yemek Logo"
+                        style="max-width: 300px; height: auto; display: inline-block; border-radius: 8px;">
+                </div>
+
+                <div class="hero-content" style="flex: 1; min-width: 300px; text-align: left;">
+
+                    <p class="lead" style="margin-bottom: 30px; color: black; font-size: 1.15rem; line-height: 1.6;">
+                        Fabrika, iş yeri, düğün, sünnet düğünü, mevlit ve diğer özel etkinlikleriniz için
+                        lezzetli ve hijyenik toplu yemek hizmeti veriyoruz. Günlük çıkan yemeklerimiz ve kebap
+                        çeşitlerimiz ile müşterilerimizi lokantamızda ağırlıyoruz.
+                        Kaliteli üretim anlayışımızla güvenle yanınızdayız.
+                    </p>
+                    <div class="hero-actions"
+                        style="margin-top: 20px; display: flex; justify-content: center; gap: 15px;">
+                        <a href="tel:+905383059883" class="btn"
+                            style="background: var(--brand); color: #fff; border: none; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-flex; align-items:center; gap: 8px;">
+                            <i class="fas fa-phone"></i> Hemen Ara
+                        </a>
+                    </div>
+
+
+                    <div class="badges"
+                        style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+                        <span class="badge"
+                            style="background: #fff; border: 1px solid #e0d8c0; padding: 5px 10px; border-radius: 4px;">
+                            <i class="fa fa-utensils" style="color: var(--brand); margin-right: 5px;"></i> Lokantamızda
+                            Servis
+                        </span>
+                        <span class="badge"
+                            style="background: #fff; border: 1px solid #e0d8c0; padding: 5px 10px; border-radius: 4px;">
+                            <i class="fas fa-industry" style="color: var(--brand); margin-right: 5px;"></i> Toplu Yemek
+                        </span>
+                        <span class="badge"
+                            style="background: #fff; border: 1px solid #e0d8c0; padding: 5px 10px; border-radius: 4px;">
+                            <i class="fas fa-box" style="color: var(--brand); margin-right: 5px;"></i> Paket Servis
+                        </span>
+                        <span class="badge"
+                            style="background: #fff; border: 1px solid #e0d8c0; padding: 5px 10px; border-radius: 4px;">
+                            <i class="fas fa-leaf" style="color: var(--brand); margin-right: 5px;"></i> Organizasyon
+                            Yemekleri
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="alt">
+            <div class="container">
+                <h2>Hakkımızda</h2>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <p>Kardeşler Yemek, 2009 yılından beri Elazığ'da toplu yemek alanında faaliyet gösterir. Her gün
+                            yüzlerce kişiye sabah, öğle ve akşam olmak üzere güvenilir ve lezzetli yemekler sunar.
+                            Teklif almak için iletişim kanallarımızdan ulaşabilirsiniz. </p>
+                    </div>
+                    <div class="card">
+                        <ul class="clean" style="text-align: left;">
+                            <li><i class="fas fa-check-circle" style="color: var(--brand);"></i> Usta aşçılar ve
+                                deneyimli ekip</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--brand);"></i> Hijyen ve kalite
+                                standartlarına uygun yemekler</li>
+                            <li><i class="fas fa-check-circle" style="color: var(--brand);"></i> Her gün değişen zengin menü seçeneği
+                                </li>
+                            <li><i class="fas fa-check-circle" style="color: var(--brand);"></i> Uygun fiyat ve esnek sözleşme</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Hizmetlerimiz</h2>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <i class="fas fa-truck-moving fa-2x" style="color: var(--brand); margin-bottom: 10px;"></i>
+                        <h3>Taşıma Yemek</h3>
+                        <p class="muted">Günlük pişen yemeklerimiz ısı kontrollü araçlarla fabrikanıza ve iş yerlerinize
+                            zamanında ve
+                            güvenle ulaştırılır.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-utensils fa-2x" style="color: var(--brand); margin-bottom: 10px;"></i>
+                        <h3>Yerinde Servisimiz</h3>
+                        <p class="muted">Günlük çıkan sıcak yemeklerimiz ve kebap çeşitlerimizle dileyen müşterilerimiz
+                            lokantamızda ağırlanır.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-champagne-glasses fa-2x" style="color: var(--brand); margin-bottom: 10px;"></i>
+                        <h3>Etkinlik ve Organizasyon</h3>
+                        <p class="muted">Düğün, mevlit, sünnet düğünü ,toplu yemek organizasyonlarınız ve diğer özel
+                            günleriniz için isteğe özel menüler ve
+                            profesyonel servis hizmetleri.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="alt">
+            <div class="container">
+                <h2>Fabrikamızdan ve Servislerimizden Kareler</h2>
+                <div class="gallery-grid" id="photo-carousel">
+                    <p style="text-align: center; width: 100%; color: var(--muted); padding: 50px 0;">Fotoğraflar
+                        yükleniyor...</p>
+                </div>
+                <button id="prev-btn-abs" class="gallery-control-btn-absolute" enabled>
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next-btn-abs" class="gallery-control-btn-absolute" enabled>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Bize Ulaşın</h2>
+                <div class="grid grid-1">
+                    <div class="card" style="padding: 0;">
+                        <div class="grid grid-2" style="gap: 0;">
+                            <div class="contact-box" style="padding: 20px; box-shadow: none;">
+                                <div class="contact-item">
+                                    <i class="fas fa-phone-alt" style="color: var(--brand);"></i>
+                                    <strong>İş Telefonu:</strong> <a href="tel:+904242555454">+90 424 255 54 54</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-mobile-alt" style="color: var(--brand);"></i>
+                                    <strong>Cep 1:</strong> <a href="tel:+905383059883">+90 538 305 98 83</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-mobile-alt" style="color: var(--brand);"></i>
+                                    <strong>Cep 2:</strong> <a href="tel:+905380413160">+90 538 041 31 60</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope" style="color: var(--brand);"></i>
+                                    <strong>E-posta:</strong> <a
+                                        href="mailto:adalokay23@gmail.com">adalokay23@gmail.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fa-solid fa-clock" style="color: var(--brand);"></i>
+                                    <strong>Çalışma Saatleri:</strong> 06.00 - 19.00
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt" style="color: var(--brand);"></i>
+                                    <strong>Adres:</strong> ORGANİZE SANAYİ GİRİŞİ YURTBAŞI YOL ÜZERİ (ELAZIĞ)
+                                </div>
+                                <a href="tel:+905383059883" class="btn"
+                                    style="background: var(--brand); color: #fff; margin-top: 10px;">
+                                    Hemen Ara <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="map-container"
+                                style="margin: 0; border-radius: 0 var(--radius) var(--radius) 0; height: 100%; min-height: 250px;">
+                                <iframe src="https://maps.google.com/maps?q=38.618022,39.297501&hl=tr&z=16&output=embed"
+                                    width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container foot">
+            <div class="tiny">© <span id="year"></span> Elazığ Kardeşler Yemek Fabrikası.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
