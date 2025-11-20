@@ -483,7 +483,7 @@ ul.clean li {
         left: 0;
         right: 0;
         flex-direction: column;
-        background: #111; /* Koyu renk arka plan (örnek) */
+        background: #b22222; /* Koyu renk arka plan (örnek) */
         color: #fff;
         display: none;
         padding: 20px 0;
@@ -501,7 +501,7 @@ ul.clean li {
         margin: 5px auto;
         padding: 10px; /* Dokunması kolay olsun */
         border-radius: 8px;
-        color: #333; /* Link rengi */
+        color: #fff; /* Link rengi */
     }
 
     .contact-box {
@@ -566,4 +566,5 @@ footer .foot {
 .tiny {
     font-size: 12px;
     color: #aaa;
+
 }
